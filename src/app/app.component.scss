@@ -1,0 +1,18 @@
+//Paddings and margins
+$padding-title: 40px;
+$social-icon-spacing: 12px;
+//Colors
+$home-gray: #95989A;
+$home-black: #2D2D2D;
+$pink-color: #FE065A;
+
+#container {
+   height: 100%;
+   padding: 0;
+   //background-color: $pink-color;
+}
+
+.navbartop {
+   background-color: white;
+   box-shadow: 0px 2px 10px grey;
+}

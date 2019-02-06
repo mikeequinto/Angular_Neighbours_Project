@@ -1,0 +1,26 @@
+@import '../app.component.scss';
+
+.display-4, h1 {
+   padding-top: $padding-title;
+   padding-bottom: $padding-title;
+}
+.display-4, p {
+   color: white;
+}
+#login-box {
+   margin-left: 0px;
+   margin-right: 0px;
+}
+form input, form button {
+   width: 300px;
+}
+@media (max-width: 991px) {
+   #login-register-row {
+      background: linear-gradient($pink-color 50%, white 50%);
+   }
+}
+@media (min-width: 992px) {
+   #login-register-row {
+      background: linear-gradient(90deg, $pink-color 50%, white 50%);
+   }
+}

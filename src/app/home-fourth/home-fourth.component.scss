@@ -1,0 +1,28 @@
+@import '../app.component.scss';
+@import'../home/home.component.scss';
+
+#follow-us {
+   background-color: $home-black;
+}
+#title {
+   padding-top: $padding-title;
+   padding-bottom: $padding-title;
+}
+h1, h2 {
+   color: white;
+}
+#google-badge {
+   width: 200px;
+}
+#apple-badge {
+   width: 175px;
+}
+#follow {
+   padding-top: $padding-title;
+   padding-bottom: $padding-title;
+}
+#follow img {
+   width: 60px;
+   margin-right: $social-icon-spacing;
+   padding-top: 20px;
+}

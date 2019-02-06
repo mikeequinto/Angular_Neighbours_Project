@@ -1,0 +1,63 @@
+@import '../app.component.scss';
+
+h1, h3 {
+   color: white;
+}
+
+#scroll-down {
+   padding-top: 40px;
+}
+
+#scroll-down a {
+   color: $home-black;
+}
+
+#scroll-down a:hover {
+   text-decoration: none;
+}
+
+#download-now {
+   margin-top: 25px;
+}
+
+#google-badge{
+   width: 185px;
+   height: 80px;
+}
+
+#apple-badge {
+   width: 175px;
+   height: 65px;
+   padding-top: 15px;
+   padding-left: 12px;
+}
+
+#icon-arrow-down {
+   width: 45px;
+}
+
+@media (min-width: 576px) {
+   #title {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+}
+
+@media (min-width: 800px) {
+   #home {
+      padding-top: 30px;
+   }
+}
+
+@media (max-width: 799px) {
+   #google-badge{
+      width: 175px;
+      height: 70px;
+   }
+
+   #apple-badge {
+      width: 165px;
+      height: 58px;
+      padding-top: 12px;
+   }
+}

@@ -1,0 +1,13 @@
+@import '../home/home.component.scss';
+
+#how-it-works {
+   background-color: $home-gray;
+}
+#how-it-works h1 {
+   padding-top: $padding-title;
+}
+
+#steps-title {
+   font-style: italic;
+   margin-bottom: 25px;
+}
